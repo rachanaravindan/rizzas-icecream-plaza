@@ -1,0 +1,244 @@
+img {  
+    height: 390px;
+    width: 313px
+    }  
+    
+
+
+                                            /* N A V  B A R */
+.navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+                                            /*B I G  H E A D I N G*/
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+  }
+
+                                            /* T I T L E */
+
+#title {
+    background-color: plum;
+    color: #fff;
+    text-align: left;
+    margin-bottom:7rem;
+  }
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+.title-image {
+    width: 522px;
+    height: 650px;
+    position:relative;
+    left: 130px;
+}
+
+                                          /* W H I T E  H E A D I N G  1*/
+.white-space-heading1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size: 4rem;
+  line-height: 1;
+  color: plum;
+  margin-bottom: 2rem;
+}
+
+                                         /* F E A T U R E S*/
+ #features{
+  background-color: #CDF0EA;
+  padding: 4.5%;
+  margin-bottom: 7rem;
+}
+.img-fluid{
+  height: 500px;
+  width: 500px;
+}
+
+                                        /* W H I T E  H E A D I N G  2*/
+.white-space-heading2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size: 4rem;
+  line-height: 1;
+  color: plum;
+  margin-bottom: 2rem;
+} 
+
+                                         /* V A R I E T I E S */
+
+#pricing{
+  background-color: #FFE9D6;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+.boxes{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+  transition: 0.3s;
+}
+                                                                        
+.img-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 6px solid #ddd;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding:20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.icecream, .milkshake, .thickshake{
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; 
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+                                                                        
+.header-text{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.img-text{
+   padding-top: 20px;
+}
+.img-text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.boxes:hover{
+  background: lightblue;
+}
+
+                                        /* W H I T E  H E A D I N G  3*/
+.white-space-heading3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size: 4rem;
+  line-height: 1;
+  color: plum;
+  margin-bottom: 2rem;
+} 
+
+                                            /* F O O T E R */
+
+#footerid{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer-container{
+  background-color: #EDEEF7;
+  padding-bottom: 4rem;
+}
+
+.footer{
+  width:80%;
+  height: 35rem;
+  background-color: #EDEEF7;
+  color:black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h2{
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-heading a{
+  color:black;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a :hover{
+  color:teal;
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form h2{
+  margin-bottom: 0.5rem;
+}
+
+#footer-email{
+  width:250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: black;
+  border: black;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+#footer-email::placeholder{
+  color: black;
+}
+
+#footer-email-btn{
+  width:80px;
+  height:40px;
+  border-radius: 4px;
+  background-color:blueviolet;
+  outline: none;
+  border: none;
+  color:white;
+  font-size:1rem;
+}
+
+#footer-email-btn:hover{
+  cursor:pointer;
+  background-color:thistle;
+  transition: all 0.4s ease-out;
+}
+
+@media screen and (max-width: 1150px){
+  .footer{
+    height: 50vh;
+  }
+}
